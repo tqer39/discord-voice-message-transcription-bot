@@ -27,6 +27,11 @@ dev = [
     "mypy>=1.10.0",
     "pre-commit>=3.7.0",
 ]
+cdk = [
+    "aws-cdk-lib>=2.140.0",
+    "constructs>=10.0.0",
+    "aws-cdk.aws-lambda-python-alpha>=2.140.0a0",
+]
 
 [build-system]
 requires = ["hatchling"]
